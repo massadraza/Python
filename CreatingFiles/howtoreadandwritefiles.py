@@ -6,3 +6,4 @@ fw.close()
 fr = open('example.txt', 'r')
 text = fr.read()
 print (text) 
+# Read file 
