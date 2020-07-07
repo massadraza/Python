@@ -8,14 +8,21 @@ def item_spider(max_pages):
         url = 'https://www.ebay.com/e/_electronics/best-of-tech-deals/cell-phones-accessories/15032?_pgn=' + str(page)      
         source_code = requests.get(url) 
         plain_text = source_code.text 
-        soup = BeautifulSoup([plain_text], "html.parser")  
-        for link in soup.findAll('a', {'class': 's-item__title'}): 
-            h3 = "https://www.ebay.com" + link.get('h3')
-            title = link.string 
-            print (h3)
-            print (title) 
+        soup = BeautifulSoup(plain_text,features="html.parser")  
+        for link in soup.findAll('a', {'class': 's-item__link'}):  
+            print (link.h3.get_text())
+            print (link["href"]) 
+            get_item_info(soup)     
         page += 1
 
 
 
+def get_item_info(item_url):
+    source_code = requests.get(item_url)  
+    plain_text = source_code.text 
+    soup = BeautifulSoup(plain_text,features="html.parser")
+    for item_name in soup.findAll('h1', {'class': 'it-ttl'}):
+        print (item_name.string)   
+
 item_spider(1) 
+    
