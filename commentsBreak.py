@@ -7,4 +7,4 @@ for n in range(101):
     else: 
         print:(n)
 
-#Learning about comments and break
+# Learning about comments and break

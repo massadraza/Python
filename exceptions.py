@@ -8,5 +8,5 @@ while True:
     finally: 
         print ("Thanks for trying our system out our system is still in beta testingee, if you are not happy with your results or the system please email us at massadraza@hotmail.com") 
 
-#Learning how to ignore errors in Python Code by using exceptions
+# Learning how to ignore errors in Python Code by using exceptions
         
