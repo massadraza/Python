@@ -7,6 +7,8 @@ def negative_number_counter(*args):
 
 negative_number_counter(49 , 40 , 3)
 
-#Learning about flexible number of arrguements 
+# Learning about flexible number of arguements 
+
+
 
 
