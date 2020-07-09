@@ -8,4 +8,4 @@ def download_image(url):
 
 download_image('https://www.python.org/static/community_logos/python-logo-master-v3-TM.png') 
 
-# Learning how to download images from the internet using Python Code. 
+#  Learning how to download images from the internet using Python Code. 
