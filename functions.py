@@ -9,4 +9,4 @@ def USDtoquarters(UTQ):
 USDtoquarters(5)
 mac()
 
-#Learning what is a function and how to create and call a function.
+# Learning what is a function and how to create and call a function.
