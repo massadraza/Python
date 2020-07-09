@@ -17,4 +17,5 @@ robber1 = Robber()
 robber1.attack_robber() 
 robber1.health_status() 
 
+# Learning about what is a class and objects and how to use them
     
