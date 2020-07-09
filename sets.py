@@ -53,4 +53,4 @@ else:
 
 print ('Please buy the following items in order to proceed with your home closure!')
 
-#Learning how to make sets using Python
+# Learning how to make sets using Python
