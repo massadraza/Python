@@ -9,4 +9,4 @@ def cool():
 wow()
 cool()
 
-# Learning about Variable Scope
+#  Learning about Variable Scope
