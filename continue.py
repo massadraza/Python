@@ -6,3 +6,4 @@ for n in range (1, 51):
         continue
     print (n)
 
+#Learning the keyword continue

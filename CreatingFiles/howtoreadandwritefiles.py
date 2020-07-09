@@ -6,4 +6,4 @@ fw.close()
 fr = open('example.txt', 'r')
 text = fr.read()
 print (text) 
-# Read file 
+# Learning how to read and write files using Python Code.

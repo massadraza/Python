@@ -52,4 +52,5 @@ else:
     print ('Remember to add a tv to your furniture list!')
 
 print ('Please buy the following items in order to proceed with your home closure!')
-#Learns Set
+
+#Learning how to make sets using Python

@@ -7,3 +7,5 @@ def download_image(url):
     urllib.request.urlretrieve(url, full_name) 
 
 download_image('https://www.python.org/static/community_logos/python-logo-master-v3-TM.png') 
+
+#Learning how to download images from the internet using Python Code. 

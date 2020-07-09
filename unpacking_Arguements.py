@@ -7,6 +7,8 @@ massads_results = [9, 10, 11]
 hours_spent_sleeping(massads_results[0], massads_results[1], massads_results[2]) 
 hours_spent_sleeping(*massads_results) 
 
+#Learning how to unpack Arugements 
+
 
 
 

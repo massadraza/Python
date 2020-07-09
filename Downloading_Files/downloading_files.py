@@ -14,3 +14,5 @@ def download_APPL_stock_info(csv_url):
     fx.close() 
 
 download_APPL_stock_info(APPL_url) 
+
+# Downloading files from the web using Python Code

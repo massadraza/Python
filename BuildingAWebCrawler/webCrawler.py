@@ -10,11 +10,10 @@ def item_spider(max_pages):
         plain_text = source_code.text 
         soup = BeautifulSoup(plain_text,features="html.parser")  
         for link in soup.findAll('a', {'class': 's-item__link'}):  
-            print (link.h3.get_text())
+            print (link.h3.get_text()) 
             print (link["href"]) 
-            get_item_info(soup)     
+            #get_item_info(soup)           
         page += 1
-
 
 
 def get_item_info(item_url):
@@ -23,6 +22,8 @@ def get_item_info(item_url):
     soup = BeautifulSoup(plain_text,features="html.parser")
     for item_name in soup.findAll('h1', {'class': 'it-ttl'}):
         print (item_name.string)   
+    for link in soup.findAll('h1'):
+        print (link["href"])
 
-item_spider(1) 
+item_spider(1)  
     
