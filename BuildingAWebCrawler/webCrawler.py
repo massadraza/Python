@@ -27,4 +27,4 @@ def get_item_info(item_url):
 
 item_spider(1)  
 
-#Building a WebCrawler using Python code  
+# Building a WebCrawler using Python code  
