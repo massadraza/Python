@@ -20,8 +20,8 @@ def clean_up_list(word_list):
     clean_word_list = []
     for word in word_list:
         symbols = "!@#$%^&*()_+-={}:\"<>?[];',./'`~"
-        for i in range(len(symbols)):
-            word = word.replace(symbols[i], "")
+        for x in range(len(symbols)):
+            word = word.replace(symbols[x], "") 
         if len(word) > 0:
             clean_word_list.append(word)
 
@@ -35,8 +35,8 @@ def create_dictionary(clean_word_list):
         else:
             word_count[word] = 1
 
-    for k,v in sorted(word_count.items(), key=operator.itemgetter(1)):
-        print(k,":",v)               
+    for key, value in sorted(word_count.items(), key=operator.itemgetter(1)):
+        print(key,":",value)                
 
 
 start('https://www.buzzfeed.com/')  
