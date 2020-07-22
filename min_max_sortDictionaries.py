@@ -10,8 +10,8 @@ Stock = {
 
 } 
 
-print(sorted(zip(Stock.keys, Stock.values()))) 
-print(min(zip(Stock.keys, Stock.values()))) 
-print(max(zip(Stock.keys, Stock.values())))  
+print(sorted(zip(Stock.values(), Stock.keys()))) 
+print(min(zip(Stock.values(), Stock.keys()))) 
+print(max(zip(Stock.values(), Stock.keys()))) 
 
 # Learning how to organize a dictionary and sort it in min, max, sort.
