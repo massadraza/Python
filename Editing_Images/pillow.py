@@ -1,6 +1,6 @@
 from PIL import Image
 
-img = Image.open("/Users/massadraza/Desktop/Python/Editing_Images/macOS.png") 
+img = Image.open("/Users/massadraza/Desktop/Python/Editing_Images/macOS.jpg") 
 print(img.size)
 print(img.format)  
 img.show()
