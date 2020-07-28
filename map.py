@@ -6,4 +6,4 @@ def new_students(students):
 new_students_list = list(map(new_students, Students_in_class))
 print (new_students_list) 
 
-# Learning about the map function. 
+# Learning about the map function 
